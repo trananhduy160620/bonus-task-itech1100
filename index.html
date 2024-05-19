@@ -1,0 +1,202 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task 1 and Task 4</title>
+</head>
+
+<body>
+    <div class="main">
+        <h3>Task 1</h3>
+        <div class="task1">
+            <h2>Employee Cost</h2>
+            <div class="first-employee">
+                <!-- Staff Name -->
+                <label for="staff-name">Staff name:</label><br>
+                <input type="text" name="staff-name" id="staff-name-1" required>
+                <br>
+                <!-- Hours per day -->
+                <label for="hours-per-day">Hours per day:</label><br>
+                <input type="number" name="hours-per-day" id="hours-per-day-1" required>
+                <br>
+                <!-- Days in week -->
+                <label for="days-in-week">Days in week:</label><br>
+                <input type="number" name="days-in-week" id="days-in-week-1" required>
+                <br>
+                <!-- Extra worked hours -->
+                <label for="extra-worked-hours">Extra worked hours:</label><br>
+                <input type="number" name="extra-worked-hours" id="extra-worked-hours-1" required>
+                <br>
+                <!-- Hourly Rate -->
+                <label for="hourly-rate">Hourly rate:</label><br>
+                <input type="number" name="hourly-rate" id="hourly-rate-1" required>
+                <br>
+                <!-- Casual replacement -->
+                <label for="casual-shift">Hourly rate for casual shift:</label><br>
+                <input type="number" name="casual-shift" id="casual-shift-1" required>
+                <br>
+                <!-- Weeks of paid annual leave -->
+                <label for="annual-leave">Weeks of paid annual leave:</label><br>
+                <input type="number" name="annual-leave" id="annual-leave-1" required>
+                <br>
+            </div>
+            <div class="second-employee">
+                <!-- Staff Name -->
+                <label for="staff-name">Staff name:</label><br>
+                <input type="text" name="staff-name" id="staff-name-2" required>
+                <br>
+                <!-- Hours per day -->
+                <label for="hours-per-day">Hours per day:</label><br>
+                <input type="number" name="hours-per-day" id="hours-per-day-2" required>
+                <br>
+                <!-- Days in week -->
+                <label for="days-in-week">Days in week:</label><br>
+                <input type="number" name="days-in-week" id="days-in-week-2" required>
+                <br>
+                <!-- Extra worked hours -->
+                <label for="extra-worked-hours">Extra worked hours:</label><br>
+                <input type="number" name="extra-worked-hours" id="extra-worked-hours-2" required>
+                <br>
+                <!-- Hourly Rate -->
+                <label for="hourly-rate">Hourly rate:</label><br>
+                <input type="number" name="hourly-rate" id="hourly-rate-2" required>
+                <br>
+                <!-- Casual replacement -->
+                <label for="casual-shift">Hourly rate for casual shift:</label><br>
+                <input type="number" name="casual-shift" id="casual-shift-2" required>
+                <br>
+                <!-- Weeks of paid annual leave -->
+                <label for="annual-leave">Weeks of paid annual leave:</label><br>
+                <input type="number" name="annual-leave" id="annual-leave-2" required>
+                <br>
+            </div>
+            <div class="third-employee">
+                <!-- Staff Name -->
+                <label for="staff-name">Staff name:</label><br>
+                <input type="text" name="staff-name" id="staff-name-3" required>
+                <br>
+                <!-- Hours per day -->
+                <label for="hours-per-day">Hours per day:</label><br>
+                <input type="number" name="hours-per-day" id="hours-per-day-3" required>
+                <br>
+                <!-- Days in week -->
+                <label for="days-in-week">Days in week:</label><br>
+                <input type="number" name="days-in-week" id="days-in-week-3" required>
+                <br>
+                <!-- Extra worked hours -->
+                <label for="extra-worked-hours">Extra worked hours:</label><br>
+                <input type="number" name="extra-worked-hours" id="extra-worked-hours-3" required>
+                <br>
+                <!-- Hourly Rate -->
+                <label for="hourly-rate">Hourly rate:</label><br>
+                <input type="number" name="hourly-rate" id="hourly-rate-3" required>
+                <br>
+                <!-- Casual replacement -->
+                <label for="casual-shift">Hourly rate for casual shift:</label><br>
+                <input type="number" name="casual-shift" id="casual-shift-3" required>
+                <br>
+                <!-- Weeks of paid annual leave -->
+                <label for="annual-leave">Weeks of paid annual leave:</label><br>
+                <input type="number" name="annual-leave" id="annual-leave-3" required>
+                <br>
+            </div>
+            <div class="divider"></div>
+            <h2>Fixed Cost and Utilities Cost</h2>
+            <div class="fixed-cost">
+                <!-- Fixed Cost -->
+                <label for="fixed-cost">Fixed cost (per year):</label><br>
+                <input type="number" name="fixed-cost" id="fixed-cost" required>
+                <br>
+                <!-- Utilities Cost -->
+                <label for="util-cost">Utilities cost (per month):</label><br>
+                <input type="number" name="util-cost" id="util-cost" required>
+                <br>
+            </div>
+            <div class="submit">
+                <button type="button" onclick="handleOperatingCost()">Calculate</button>
+            </div>
+            <div class="divider"></div>
+            <div class="output">
+                <table class="output">
+                    <tr>
+                        <th class="title1">Employee Cost (per year)</th>
+                        <td class="content1" id="emp-cost">0</td>
+                    </tr>
+                    <tr>
+                        <th class="title1">Fixed Cost and Utilities Cost (per year)</th>
+                        <td class="content1" id="fixed-cost-output">0</td>
+                    </tr>
+                    <tr>
+                        <th class="title1">Total Operating Cost (per year)</th>
+                        <td class="content1" id="operating-cost">0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="task4">
+            <h3>Task 4</h3>
+            <div class="automation">
+                <table class="automation">
+                    <tr>
+                        <th class="title2" colspan="2">Selection of material and shipping </th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td class="row-header">Material</td>
+                        <td class="material-size">
+                            <select name="material-size" id="material-size" onchange="handleAutomationProcess(event)">
+                                <option value="none">None</option>
+                                <option value="NS">Nylon - S</option>
+                                <option value="NL">Nylon - L</option>
+                                <option value="CS">Canvas - S</option>
+                                <option value="CL">Canvas - L</option>
+                                <option value="LS">Leather - S</option>
+                                <option value="LL">Leather - L</option>
+                            </select>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="row-header">Shipping</td>
+                        <td class="shipping-type">
+                            <select name="shipping-type" id="shipping-type" onchange="handleAutomationProcess(event)">
+                                <option value="none">None</option>
+                                <option value="standard">Standard</option>
+                                <option value="express">Express</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="row-header">Material Price</td>
+                        <td id="material-price-output">$0</td>
+                    </tr>
+                    <tr>
+                        <td class="row-header">Shipping Price</td>
+                        <td id="shipping-price-output">$0</td>
+                    </tr>
+                    <tr>
+                        <td class="row-header">Total Price</td>
+                        <td id="total-price-output">$0</td>
+                    </tr>
+                </table>
+
+                <table class="information-process">
+                    <tr>
+                        <th>Process to follow</th>
+                    </tr>
+                    <tr>
+                        <th class="infor-content">Please select the material as per requirement</th>
+                    </tr>
+                    <tr>
+                        <th class="infor-content">Pleasae select the shipping type as per requirement</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

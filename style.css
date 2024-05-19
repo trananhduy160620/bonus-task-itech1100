@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+/* CSS for Task 1 */
+
+input {
+    width: 220px;
+    height: 30px;
+    margin: 0 0 8px 0;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    height: 20px;
+}
+
+table.output {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+.title1 {
+    display: block;
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+.content1 {
+    border: 2px solid #000000;
+    text-align: right;
+    padding: 8px;
+}
+
+.divider {
+    background-color: red;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.task1 {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+.first-employee,
+.second-employee,
+.third-employee {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    text-align: left;
+}
+
+.first-employee,
+.second-employee {
+    margin-right: 20px;
+}
+
+.fixed-cost {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+
+#emp-cost, #fixed-cost-output, #operating-cost {
+    width: 200px
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit>button {
+    width: 200px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 10px;
+}
+
+/* CSS forTask 4 */
+table.automation, table.information-process {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table.information-process {
+    text-align: left;
+    margin-left: 10px;
+    background-color: yellow;
+}
+
+.material-size {
+    width: 150px;
+    text-align: right;
+}
+
+.shipping-type {
+    width: 150px;
+    text-align: right;
+}
+
+#total-price-output, 
+#material-size, 
+#shipping-type, 
+#material-price-output, 
+#shipping-price-output {
+    text-align: right;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.infor-content {
+    background-color: rgb(151, 203, 74);
+}
